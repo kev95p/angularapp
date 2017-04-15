@@ -1,0 +1,10 @@
+<nav>
+  <menu *ngIf=activar>
+  <li *ngFor="let item of items">
+    {{item}}
+  </li>
+  
+  </menu>
+  <button class="btnMenu" (click)="toggleMenu()">Menu</button>
+  <h2>Titulo</h2>
+</nav>
